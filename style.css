@@ -625,6 +625,10 @@ form a {
 @media only screen and (max-width:600px) {
     .row {
         text-align: centre;
+        padding-right: 25px;
+    }
+    .small-container {
+        padding-right: 25px;
     }
     .col-2,
     .col-2,
