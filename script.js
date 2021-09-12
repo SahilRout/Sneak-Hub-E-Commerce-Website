@@ -36,20 +36,3 @@
           }
       }
       /* Product page*/
-  window.onload = function() {
-      let productimage = document.getElementById("product-img");
-      let smallimage = document.getElementsByClassName("small-img");
-
-      smallimage[0].onclick = function() {
-          productimage.src = smallimage[0].src;
-      }
-      smallimage[1].onclick = function() {
-          productimage.src = smallimage[1].src;
-      }
-      smallimage[2].onclick = function() {
-          productimage.src = smallimage[2].src;
-      }
-      smallimage[3].onclick = function() {
-          productimage.src = smallimage[3].src;
-      }
-  }
