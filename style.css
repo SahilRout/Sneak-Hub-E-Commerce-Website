@@ -362,6 +362,84 @@ select:focus {
     color: #fff;
 }
 
+
+/*----- Products Details Page-------*/
+
+.single-product {
+    margin-top: 50px;
+}
+
+.single-product .col-2 img {
+    padding: 0;
+}
+
+.single-product .col-2 {
+    padding: 10px;
+}
+
+.single-product h4 {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-product select {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.single-product input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 2px solid #555;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.single-product .fa {
+    color: #FF4E5B;
+    margin-left: 10px;
+}
+
+.small-img-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.small-img:hover {
+    transform: translateY(-2.5px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#product-img {
+    transition: transform .2s;
+}
+
+#product-img:hover {
+    transform: scale(1.5);
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.prod-img {
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.small-container .row-2 p {
+    color: #555;
+}
+
 @media only screen and (max-width:800px) {
     nav ul {
         position: absolute;
@@ -398,5 +476,15 @@ select:focus {
     .col-2,
     .col-4 {
         flex-basis: 100%;
+    }
+    .single-product .row {
+        text-align: left;
+    }
+    .single-product .col-2 {
+        padding-bottom: 20px 0;
+    }
+    .single-product h1 {
+        font-size: 26px;
+        line-height: 32px;
     }
 }
